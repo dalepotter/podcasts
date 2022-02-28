@@ -1,7 +1,11 @@
-# yaml-to-podcast
-Yet another 'host-your-own podcast RSS feed' repo
+# (Personal) podcast feeds
 
-## Installation
+Podcasts are a great way to engage with discrete, sequential audio content.
+
+This repo contains unofficial podcasts RSS feeds for defined content found online.
+
+
+## Generating the podcast RSS feeds
 
 ```
 $ python3 -m venv venv
