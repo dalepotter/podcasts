@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='podcast_rss_generator',
+    name='podcasts',
     version='0.0.1',
-    url='https://github.com/dalepotter/yaml-to-podcast',
+    url='https://github.com/dalepotter/podcasts',
     author='Dale Potter',
     author_email='dalepotter@gmail.com',
-    description='Yet another \'host-your-own podcast RSS feed\' repo.',
+    description='Unofficial podcass RSS feeds for a selection of audio content found online.',
     packages=find_packages(),
 )
