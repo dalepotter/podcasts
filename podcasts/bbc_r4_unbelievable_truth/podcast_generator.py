@@ -1,6 +1,5 @@
 import re
 import requests
-import yaml
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from podgen import Podcast, Episode, Media
