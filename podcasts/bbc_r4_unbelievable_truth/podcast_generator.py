@@ -1,5 +1,7 @@
 import re
+import pytz
 import requests
+from datetime import datetime
 from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 from podgen import Podcast, Episode, Media
@@ -69,17 +71,20 @@ for url in archive_urls:
             ep_metadata = metadata[identifier]
             output_title = f"S{ep_metadata['series']} E{ep_metadata['episode']}: {ep_metadata['topics']}"
             first_broadcast_no_brackets = re.sub("[\(\[].*?[\)\]]", "", ep_metadata['first_broadcast'])
+            first_broadcast_datetime = datetime.strptime(first_broadcast_no_brackets, "%d %B %Y").replace(tzinfo=pytz.UTC)
             description = f"Guests: {ep_metadata['guests']}.<br/><br/>" + \
             f"First broadcast: {first_broadcast_no_brackets}"
         except KeyError:
             output_title = title.strip()
             description = ""
+            first_broadcast_datetime = datetime.now().replace(tzinfo=pytz.utc)
             pass
 
         ep = {
             'title': output_title,
             'url': urljoin(url, raw_ep['href']),
             'description': description,
+            'first_broadcast': first_broadcast_datetime,
         }
 
         episodes.append(ep)
@@ -98,6 +103,7 @@ podcast.episodes += [
     Episode(
         title=ep['title'],
         media=Media(ep['url']),
+        publication_date=ep['first_broadcast'],
         summary=ep['description'],
     )
     for ep in episodes
