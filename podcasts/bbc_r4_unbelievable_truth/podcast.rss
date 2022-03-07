@@ -7,14 +7,15 @@
     <itunes:explicit>no</itunes:explicit>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
-    <lastBuildDate>Sat, 05 Mar 2022 23:40:42 +0000</lastBuildDate>
-    <pubDate>Sat, 05 Mar 2022 23:40:42 +0000</pubDate>
+    <lastBuildDate>Mon, 07 Mar 2022 21:07:00 +0000</lastBuildDate>
+    <pubDate>Mon, 14 Feb 2022 00:00:00 +0000</pubDate>
     <itunes:image href="https://ichef.bbci.co.uk/images/ic/1200x675/p09q7v6j.jpg"/>
     <item>
-      <title>The Unbelievable Truth (s00 e00) 'Pilot'</title>
+      <title>S00 E00 - Pilot: Hair, Football, Cats, Bees</title>
+      <description><![CDATA[Guests: Jeremy Hardy, Andy Hamilton, Neil Mullarkey, Graeme Garden.<br/><br/>First broadcast: 19 October 2006]]></description>
       <guid isPermaLink="false">https://archive.org/download/theunbelievabletruth1-5/The%20Unbelievable%20Truth%20%28s00%20e00%29%20%27Pilot%27.mp3</guid>
       <enclosure url="https://archive.org/download/theunbelievabletruth1-5/The%20Unbelievable%20Truth%20%28s00%20e00%29%20%27Pilot%27.mp3" length="0" type="audio/mpeg"/>
-      <pubDate>Sat, 05 Mar 2022 23:40:42 +0000</pubDate>
+      <pubDate>Thu, 19 Oct 2006 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>S01 E01: Cats, Michael Jackson, Beards, Coffee</title>
@@ -101,10 +102,11 @@
       <pubDate>Mon, 09 Jun 2008 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Unbelievable Truth (s02 e07) 'Christmas Special'</title>
+      <title>S02 E07 - Christmas Special: Christmas trees, Charles Dickens, Turkeys, Father Christmas</title>
+      <description><![CDATA[Guests: Graeme Garden, Jack Dee, Sean Lock, Armando Iannucci.<br/><br/>First broadcast: 15 December 2008]]></description>
       <guid isPermaLink="false">https://archive.org/download/theunbelievabletruth1-5/The%20Unbelievable%20Truth%20%28s02%20e07%29%20%27Christmas%20Special%27.mp3</guid>
       <enclosure url="https://archive.org/download/theunbelievabletruth1-5/The%20Unbelievable%20Truth%20%28s02%20e07%29%20%27Christmas%20Special%27.mp3" length="0" type="audio/mpeg"/>
-      <pubDate>Sat, 05 Mar 2022 23:40:42 +0000</pubDate>
+      <pubDate>Mon, 15 Dec 2008 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>S03 E01: Bicycles, Albert Einstein, Money, Penguins</title>
@@ -191,10 +193,11 @@
       <pubDate>Mon, 09 Nov 2009 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Unbelievable Truth (s04 e07) 'New Year's Special'</title>
+      <title>S04 E07 - New Year's Special: Snow, Tax, Champagne, Tigers</title>
+      <description><![CDATA[Guests: Rob Brydon, John Lloyd, Stephen Fry, Alan Davies.<br/><br/>First broadcast: 28 December 2009]]></description>
       <guid isPermaLink="false">https://archive.org/download/theunbelievabletruth1-5/The%20Unbelievable%20Truth%20%28s04%20e07%29%20%27New%20Year%27s%20Special%27.mp3</guid>
       <enclosure url="https://archive.org/download/theunbelievabletruth1-5/The%20Unbelievable%20Truth%20%28s04%20e07%29%20%27New%20Year%27s%20Special%27.mp3" length="0" type="audio/mpeg"/>
-      <pubDate>Sat, 05 Mar 2022 23:40:42 +0000</pubDate>
+      <pubDate>Mon, 28 Dec 2009 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>S05 E01: Childbirth, Beer, Sleep, Sir Isaac Newton</title>

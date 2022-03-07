@@ -59,13 +59,33 @@ for url in archive_urls:
 
         title = raw_ep.text
         title = title.replace('download', '')
-        title = title.replace('.mp3', '')
+        title = title.replace('.mp3', '').strip()
+        regex = re.compile(r's(\d+) e(\d+)').search(title)
+        identifier = f"{regex.group(1)}x{regex.group(2)}"  # e.g. 08x03
 
-        try:
-            regex = re.compile(r's(\d+) e(\d+)').search(title)
-            identifier = f"{regex.group(1)}x{regex.group(2)}" # e.g. 08x03
-        except AttributeError:
-            identifier = None
+        # Handle edge case episodes
+        edge_cases = {
+            # File title: Custom metadata
+            "The Unbelievable Truth (s00 e00) 'Pilot'": {
+                "wikipedia_identifier": "Pilot",
+                "series": "00",
+                "episode": "00 - Pilot"
+            },
+            "The Unbelievable Truth (s02 e07) 'Christmas Special'": {
+                "wikipedia_identifier": "Special",
+                "series": "02",
+                "episode": "07 - Christmas Special"
+            },
+            "The Unbelievable Truth (s04 e07) 'New Year's Special'": {
+                "wikipedia_identifier": "Sp.",
+                "series": "04",
+                "episode": "07 - New Year's Special"
+            }
+        }
+        if title in edge_cases.keys():
+            identifier = edge_cases[title]["wikipedia_identifier"]
+            metadata[identifier]["series"] = edge_cases[title]["series"]
+            metadata[identifier]["episode"] = edge_cases[title]["episode"]
 
         try:
             ep_metadata = metadata[identifier]
@@ -75,7 +95,7 @@ for url in archive_urls:
             description = f"Guests: {ep_metadata['guests']}.<br/><br/>" + \
             f"First broadcast: {first_broadcast_no_brackets}"
         except KeyError:
-            output_title = title.strip()
+            output_title = title
             description = ""
             first_broadcast_datetime = datetime.now().replace(tzinfo=pytz.utc)
             pass
