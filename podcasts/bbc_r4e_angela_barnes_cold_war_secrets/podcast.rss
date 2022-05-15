@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Angela Barnes' Cold War Secrets</title>
+    <link>https://www.bbc.co.uk/programmes/m000mdbq</link>
+    <description>Angela Barnes explores one of modern history’s most fascinating, frightening and relevant periods.</description>
+    <itunes:explicit>no</itunes:explicit>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-podgen v1.1.0 https://podgen.readthedocs.org</generator>
+    <lastBuildDate>Tue, 08 Mar 2022 22:08:56 +0000</lastBuildDate>
+    <pubDate>Wed, 23 Sep 2020 11:00:00 -0001</pubDate>
+    <itunes:image href="https://ia801501.us.archive.org/17/items/bbc-radio-4-extra-angela-barnes-cold-war-secrets/BBC%20Radio%204%20Extra%20-%20Angela%20Barnes%27%20Cold%20War%20Secrets.png"/>
+    <item>
+      <title>Le Carre on Spying</title>
+      <description><![CDATA[Angela Barnes explores one of modern history’s most fascinating, frightening and relevant periods.<br /><br />In the first of three programmes – she brings a unique and surprising insight into the Cold War.<br /><br />Using a perfect blend of both factual and comic archive and studio interviews, Angela reveals what we didn't know then but we do know now - from bunkers and other civil defence plans, to the Royal Observer Corps, numbers stations and the secret police services behind the Iron Curtain.<br /><br />Featuring:<br /><br />* The Penny Dreadfuls Present: Le Carre on Spying [BBC Radio 4 08/04/2017]<br />* A very special comedy offering from sketch group. Prepare to enter 1960s Germany and a hotbed of intrigue and espionage, starring Miles Jupp and Mark Heap.<br /><br />Producer: Adnan Ahmed<br /><br />Made for BBC Radio 4 Extra by for BBC Studios and first broadcast in January 2019,<br />]]></description>
+      <guid isPermaLink="false">https://archive.org/download/bbc-radio-4-extra-angela-barnes-cold-war-secrets/BBC%20Radio%204%20Extra%20-%20Angela%20Barnes%27%20Cold%20War%20Secrets%20-%201.mp3</guid>
+      <enclosure url="https://archive.org/download/bbc-radio-4-extra-angela-barnes-cold-war-secrets/BBC%20Radio%204%20Extra%20-%20Angela%20Barnes%27%20Cold%20War%20Secrets%20-%201.mp3" length="56203674" type="audio/mpeg"/>
+      <itunes:duration>59:21</itunes:duration>
+      <pubDate>Wed, 09 Sep 2020 11:00:00 -0001</pubDate>
+    </item>
+    <item>
+      <title>Bunkers and Jigsaws</title>
+      <description><![CDATA[Comedian Angela Barnes is an ardent nuclear bunker enthusiast with a passion for all things Cold War. Angela's Edinburgh show - Fortitude - featured nuclear bunkers heavily and whilst at The Festival, Angela performed her show in a decommissioned Cold War bunker in Fife.<br /><br />Featuring a perfect blend of archive and studio interviews, Angela Barnes explores this fascinating, frightening and relevant period in modern history. Over three episodes, she uses both factual and comic archive to reveal what we didn't know then but we do know now, the show brings a unique and surprising insight into the Cold War - from bunkers and other civil defence plans, to the Royal Observer Corps, numbers stations and the secret police services behind the Iron Curtain.<br /><br />Angela speaks to ‘Stasiland’ author Anna Funder, ‘German Comedy Ambassador’, Henning When and Edinburgh Comedy Award-winner John Robins.<br /><br />The second of three selections features:<br /><br />’Beyond the Fringe’<br />‘Broadcasts from the Bunker’<br />‘The Stasi Jigsaw Puzzle’<br /><br />Producer: Adnan Ahmed for BBC Studios<br /><br />Made for BBC Radio 4 Extra and first broadcast in January 2019.<br />]]></description>
+      <guid isPermaLink="false">https://archive.org/download/bbc-radio-4-extra-angela-barnes-cold-war-secrets/BBC%20Radio%204%20Extra%20-%20Angela%20Barnes%27%20Cold%20War%20Secrets%20-%202.mp3</guid>
+      <enclosure url="https://archive.org/download/bbc-radio-4-extra-angela-barnes-cold-war-secrets/BBC%20Radio%204%20Extra%20-%20Angela%20Barnes%27%20Cold%20War%20Secrets%20-%202.mp3" length="45927629" type="audio/mpeg"/>
+      <itunes:duration>57:18</itunes:duration>
+      <pubDate>Wed, 16 Sep 2020 11:00:00 -0001</pubDate>
+    </item>
+    <item>
+      <title>The Bed Sitting Room</title>
+      <description><![CDATA[Comedian Angela Barnes is an ardent nuclear bunker enthusiast with a passion for all things Cold War.<br /><br />Angela's Edinburgh show - Fortitude - featured nuclear bunkers heavily and whilst at The Festival, Angela performed her show in a decommissioned Cold War bunker in Fife.<br /><br />In this final instalment of interviews, clips and programmes, Angela chooses the remake of a bleak post-apocalyptic classic.<br /><br />‘The Bed Sitting Room’ [Radio 4, 2015]<br /><br />Producer: Adnan Ahmed for BBC Studios<br /><br />Made for BBC Radio 4 Extra and first broadcast in January 2019.<br />]]></description>
+      <guid isPermaLink="false">https://archive.org/download/bbc-radio-4-extra-angela-barnes-cold-war-secrets/BBC%20Radio%204%20Extra%20-%20Angela%20Barnes%27%20Cold%20War%20Secrets%20-%203.mp3</guid>
+      <enclosure url="https://archive.org/download/bbc-radio-4-extra-angela-barnes-cold-war-secrets/BBC%20Radio%204%20Extra%20-%20Angela%20Barnes%27%20Cold%20War%20Secrets%20-%203.mp3" length="55993958" type="audio/mpeg"/>
+      <itunes:duration>59:39</itunes:duration>
+      <pubDate>Wed, 23 Sep 2020 11:00:00 -0001</pubDate>
+    </item>
+  </channel>
+</rss>
