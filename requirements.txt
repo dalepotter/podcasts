@@ -7,7 +7,7 @@
 -e file:.
     # via -r requirements.in
 beautifulsoup4==4.10.0
-    # via podcasts
+    # via sanitized-package
 certifi==2021.10.8
     # via requests
 charset-normalizer==2.0.12
@@ -27,7 +27,7 @@ pep517==0.12.0
 pip-tools==6.6.0
     # via -r requirements.in
 podgen==1.1.0
-    # via podcasts
+    # via sanitized-package
 python-dateutil==2.8.2
     # via dateutils
 pytz==2022.1
@@ -36,8 +36,8 @@ pytz==2022.1
     #   podgen
 requests==2.27.1
     # via
-    #   podcasts
     #   podgen
+    #   sanitized-package
 six==1.16.0
     # via python-dateutil
 soupsieve==2.3.2.post1
@@ -48,7 +48,7 @@ tomli==2.0.1
     # via pep517
 urllib3==1.26.9
     # via requests
-wheel==0.37.1
+wheel==0.38.1
     # via pip-tools
 
 # The following packages are considered to be unsafe in a requirements file:
